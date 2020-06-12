@@ -4,7 +4,7 @@ const Sequelize = require('sequelize');
     //tablename == workoutdata in pgadmin 4 in the workoutlogdata database
     //insert password into 'pass' into the 3rd argument of the list
 
-module.exports =  new Sequelize('workOutDb', 'postgres', 'PASS', {
+module.exports =  new Sequelize('todoDB', 'postgres', '/////', {
   host: 'localhost',
   dialect: 'postgres',
   operatorsAliases: false,

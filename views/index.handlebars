@@ -10,17 +10,17 @@
 
 </head>
 <body>
-
+    <header>
+        <h3>Your To Do List: </h3>
+    </header>
+    <main>
 <div class = "container">
     <div class="form-wrap">
-        <form action="/add" method="POST" class="add-form">
+        <form action="/" method="POST" class="add-form">
         <i class="fas fa-search"></i>
-
-        <input type="text"  placeholder="workout type" name = "workouttype" id = "workouttype" value="{{todoItem}}">
-      
+        <input type="text"  placeholder="Enter task" name = "workouttype" id = "workouttype" value="{{todoItem}}">
         <input type="submit" value="Add">
-        <input type="update" value="Delete">
-        
+        <input type="submit" value="Delete">    
 
         </form>
     </div>
@@ -34,10 +34,7 @@
 
 
 </div>
-
-
-
+</main>
 
 </body>
-
 </html>
